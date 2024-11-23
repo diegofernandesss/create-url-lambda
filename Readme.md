@@ -14,8 +14,8 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/last-commit/diegofernandesss/create-url-lambda?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit"/>
-    <img src="https://img.shields.io/github/languages/top/diegofernandesss/create-url-lambda?style=default&logo=git&logoColor=white&color=0080ff" alt="languages"/>
-    <img src="https://img.shields.io/github/languages/count/diegofernandesss/create-url-lambda?style=default&color=0080ff" alt="languages"/>
+    <img src="https://img.shields.io/github/languages/top/diegofernandesss/create-url-lambda?style=default&logo=openjdk&logoColor=white&color=0080ff" alt="languages"/>
+    <img src="https://img.shields.io/github/languages/count/diegofernandesss/create-url-lambda?style=default&color=0080ff" alt="count-languages"/>
 </p>
 
 
@@ -86,3 +86,8 @@ mvn clean package
 - **Aula 1** - Criando Funções Serverless e Configurando URl Encurtada
 - **Aula 2** - Integração com S3
 - **Aula 3** - Redirecionamento de URLs e Configuração do Api Gateway
+
+
+## OBS:
+
+> Projeto desenvolvido no curso de Java da [Rocketseat](https://www.rocketseat.com.br/).💜
