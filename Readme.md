@@ -70,13 +70,13 @@ Esse projeto trata-se de um **sistema de encurtamento de URL's** utilizando a **
 
 ## Usabilidade do Projeto
 
-- **Trocar o nome do bucket pelo seu bucket no S3:**
+- **Trocar o nome do bucket dos arquivos pelo nome do seu bucket no S3:**
 
 ```java
 .bucket("seu-bucket")
 ```
 
-- **Comando para colocar o arquivo '.jar' no AWS Lambda:**
+- **Comando para gerar arquvo '.jar' e adicionar no AWS Lambda:**
 
 ```bash
 mvn clean package
