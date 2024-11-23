@@ -1,11 +1,11 @@
-<!-- <p align="center">
+<p align="center">
     <img 
         src="./.github/preview.png" 
         align="center" 
         width="90%" 
         alt="Imagem do Projeto"
     />
-</p> -->
+</p>
 
 <h1 align="center">Encurtador de URL</h1>
 <p align="center">
