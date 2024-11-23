@@ -34,3 +34,55 @@ Esse projeto trata-se de um **sistema de encurtamento de URL's** utilizando a **
 |   🧷  | **Lambda**         | O AWS Lambda é um serviço de computação sem servidor da Amazon Web Services (AWS) que permite executar código sem a necessidade de provisionar ou gerenciar servidores    |
 |   🧷  | **S3**            | O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos oferecido pela Amazon Web Services (AWS). Ele é projetado para armazenar e recuperar qualquer quantidade de dados a qualquer momento, de qualquer lugar na web   |
 |   🧷  | **Api Gateway**            | O Amazon API Gateway é um serviço gerenciado que facilita a criação, publicação, manutenção, monitoramento e segurança de APIs em qualquer escala. Ele permite que você crie APIs RESTful e WebSocket para permitir que aplicações se comuniquem de maneira segura e eficiente com backend services, como AWS Lambda, Amazon EC2, ou outros serviços web  |
+
+## Estrutura do projeto
+
+```sh
+.
+├── createurllambda
+│   ├── pom.xml
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   │   └── org
+│       │   │       └── example
+│       │   │           ├── Main.java
+│       │   │           └── UrlData.java
+│       │   └── resources
+│       └── test
+│           └── java
+└── redirecturlshortener
+    ├── pom.xml
+    └── src
+        ├── main
+        │   ├── java
+        │   │   └── org
+        │   │       └── diego
+        │   │           ├── Main.java
+        │   │           └── UrlData.java
+        │   └── resources
+        └── test
+            └── java
+
+19 directories, 6 files
+
+```
+
+## Usabilidade do Projeto
+
+- **Trocar o nome do bucket pelo seu bucket no S3:**
+
+```java
+.bucket("seu-bucket")
+```
+
+- **Comando para colocar o arquivo '.jar' no AWS Lambda:**
+
+```bash
+mvn clean package
+```
+## Aulas:
+
+- **Aula 1** - Criando Funções Serverless e Configurando URl Encurtada
+- **Aula 2** - Integração com S3
+- **Aula 3** - Redirecionamento de URLs e Configuração do Api Gateway
